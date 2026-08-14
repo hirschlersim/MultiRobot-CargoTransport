@@ -33,17 +33,19 @@ The finalized task: starting from a dynamic position, the robots locate the obje
 
 ## Demo
 
-**Leader-follower pushing a single object:**
+> The `media/demos` directory contains the demos in the highest available quality.
 
-<video src="media/demos/LeaderSingelObj.mp4" controls width="600"></video>
+**Leader pushing a single object:**
+
+![Leader pushing a single object](media/demos/LeaderSingleObj.gif)
 
 **Leader pushing two objects:**
 
-<video src="media/demos/LeaderDoubleObj.mp4" controls width="600"></video>
+![Leader pushing two objects](media/demos/LeaderDoubleObj.gif)
 
 **Leader-follower pushing two objects:**
 
-<video src="media/demos/LeaderFollowerDoubleObj.mp4" controls width="600"></video>
+![Leader-follower pushing two objects](media/demos/LeaderFollowerDoubleObj.gif)
 
 ## System Architecture
 
