@@ -1,0 +1,4 @@
+<launch>
+  <!-- Run RViz with a specified config file -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find apriltag_ros)/rviz_config/camera_config.rviz" />
+</launch>

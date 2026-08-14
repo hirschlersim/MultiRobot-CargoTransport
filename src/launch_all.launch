@@ -1,0 +1,14 @@
+<launch>
+
+<include file="$(find apriltag_ros)/launch/continuous_detection.launch"></include>
+
+<include file="$(find video_stream_opencv)/launch/webcamerausb.launch">
+<arg name="camera_info_url" value="file:///home/labuser/catkin_ws/src/video_stream_opencv/config/test_calibration.yaml"/>
+<arg name="video_stream_provider" value="0"/>
+</include>
+
+
+<node pkg="apriltags_to_pose" name="converternode" type="converter.py"> 
+</node>
+
+</launch>

@@ -1,0 +1,17 @@
+<launch>
+<!-- include file="$(find apriltag_ros)/launch/my_continuous_detection.launch" / -->
+
+
+<!--
+
+
+-->
+
+<node pkg="leader_vehicle" type="leader_vehicle" name="leader_vehicle"  output="screen"/>
+<node pkg="follower_vehicle" type="follower_vehicle" name="follower_vehicle" />
+
+
+
+<!-- <node pkg="vir_camera" type="virtual_camera" name="vir_camera" output="screen"/> -->
+<!-- node pkg="rviz" name="rviz" type="rviz" args="-d $(find follower_vehicle)/myrvizdefault.rviz"/ -->
+</launch>
